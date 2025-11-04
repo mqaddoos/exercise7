@@ -1,40 +1,95 @@
 <!DOCTYPE html>
 <html lang="en-CA">
-<head>
-<title>Page Title</title>
-</head>
-<body>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
 
 
-<!--This receipe is taken from https://cooking.nytimes.com/recipes/1012494-spinach-tofu-and-sesame-stir-fry -->
+    <title>Page Title</title>
+    <!--This receipe is taken from https://cooking.nytimes.com/recipes/1012494-spinach-tofu-and-sesame-stir-fry -->
 
+    <style>
+      .container {
+        grid-template-columns: 30% 70%;
+        width: 1400px;
+        display: grid;
+        background: white;
+        margin: 20px;
+        font-family: "Inclusive Sans", sans-serif;
+        font-weight: 350;
+      }
 
+      .grid {
+        width: 900px;
+        padding: 40px;
+        color: DarkSlateGrey;
+        margin: 20px;
+      }
 
-Spinach, Tofu and Sesame Stir-Fry
-By: Martha Rose Shulman
-Yield: 3 Servings
+      .recipe-photo-pic {
+        width: 900px;
+        height: 600px;
+      }
 
-Ingredients
+      ul {
+        margin: 15px;
+        padding: 0px;
+        line-height: 30px;
+      }
 
-1 tablespoon canola oil
-½ pound tofu, cut in small dice
-1 large garlic clove, minced
-1 teaspoon grated or minced fresh ginger
-¼ teaspoon red chili flakes
-Soy sauce to taste
-16-ounce bag baby spinach, rinsed
-2 tablespoons toasted sesame seeds
-1 teaspoon sesame oil
+      h1 {
+        font-family: "Inclusive Sans", sans-serif;
+        font-size: 50px;
+        font-weight: 300;
+      }
 
-Preparation
+      h3 {
+        font-weight: 400;
+      }
+    </style>
+  </head>
 
-Step 1
-Heat the canola oil over medium-high heat in a large nonstick skillet or wok, and add the tofu. Stir-fry until the tofu is lightly colored, three to five minutes, and add the garlic, ginger and chili flakes. Cook, stirring, until fragrant, about one minute, and add soy sauce to taste. Add the spinach and stir-fry until the spinach wilts, about one minute. Stir in the sesame seeds, and add more soy sauce to taste. Remove from the heat.
+  <body>
+    <div class="container">
+      <div class="grid">
 
-Step 2
-Using tongs, transfer the spinach and tofu mixture to a serving bowl, leaving the liquid behind in the pan or wok. Drizzle with the sesame oil, and add more soy sauce as desired. Serve with rice or other grains, or noodles. You may also use it as a filling for whole wheat pita bread.
+        <h1>Spinach, Tofu <br>and Sesame<br> Stir-Fry</h1>
+        <h3>By: Martha Rose Shulman </h3>
+        <h3>Yield: 3 Servings</h3>
+      </div>
 
-Tip
-Advance preparation: This is a last-minute preparation, but you can have your ingredients prepared well in advance.
-</body>
+      <div class="grid"> <img class="recipe-photo-pic" src="recipe-photo-Enhanced-SR.jpg" alt=""> </div>
+
+      <div class="grid">
+        <h2>Ingredients</h2>
+
+        <ul>
+          <li>1 tablespoon canola oil</li>
+          <li>½ pound tofu, cut in small dice</li>
+          <li>1 large garlic clove, minced</li>
+          <li>1 teaspoon grated or minced fresh ginger</li>
+          <li>¼ teaspoon red chili flakes</li>
+          <li>Soy sauce to taste</li>
+          <li>16-ounce bag baby spinach, rinsed</li>
+          <li>2 tablespoons toasted sesame seeds</li>
+          <li>1 teaspoon sesame oil</li>
+        </ul>
+      </div>
+
+      <div class="grid">
+        <h2>Preparation</h2>
+
+        <h3>Step 1</h3>
+        <p>Heat the canola oil over medium-high heat in a large nonstick skillet or wok, and add the tofu. Stir-fry until the tofu is lightly colored, three to five minutes, and add the garlic, ginger and chili flakes. Cook, stirring, until fragrant, about one minute, and add soy sauce to taste. Add the spinach and stir-fry until the spinach wilts, about one minute. Stir in the sesame seeds, and add more soy sauce to taste. Remove from the heat.</p>
+
+        <h3>Step 2 </h3>
+        <p>Using tongs, transfer the spinach and tofu mixture to a serving bowl, leaving the liquid behind in the pan or wok. Drizzle with the sesame oil, and add more soy sauce as desired. Serve with rice or other grains, or noodles. You may also use it as a filling for whole wheat pita bread. </p>
+
+        Tip
+        Advance preparation: This is a last-minute preparation, but you can have your ingredients prepared well in advance.
+      </div>
+    </div>
+
+  </body>
 </html>
